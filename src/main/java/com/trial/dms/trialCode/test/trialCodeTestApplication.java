@@ -1,13 +1,16 @@
 package com.trial.dms.trialCode.test;
 
-/**
- * Hello world!
- *
- */
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@ComponentScan("com.trial.dms")
+@SpringBootApplication
+@EnableAutoConfiguration
 public class trialCodeTestApplication 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static void main( String[] args ){
+    	SpringApplication.run(trialCodeTestApplication.class,args);
     }
 }
