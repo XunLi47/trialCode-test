@@ -135,7 +135,7 @@ public class StringUtils {
         if (bytesLength <= 0) {
             throw new Exception("bytesLength should >0");
         }
-        List<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<String>();
         String temp = utfStr;
         String data = EMPTY_STRING;
         while (temp.length() != data.length()) {
