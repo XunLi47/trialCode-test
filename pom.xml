@@ -165,5 +165,29 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+    <!-- 读取Excel -->
+    	<dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+        <!-- redis依赖 -->
+        <dependency> 
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId> 
+			<version>3.2.0</version> 
+		</dependency>
+		<!--lombok依赖  -->
+		<dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.16</version>
+        </dependency>
   </dependencies>
 </project>
