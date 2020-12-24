@@ -13,9 +13,9 @@ import org.slf4j.LoggerFactory;
  * @author lx
  * @date 2020年12月24日
  */
-public class Testo5 {
+public class GenerateCaptcha {
 	
-	private static final Logger logger  = LoggerFactory.getLogger(Testo5.class);
+	private static final Logger logger  = LoggerFactory.getLogger(GenerateCaptcha.class);
 	
 	public static void main(String[] args) {
         String str = getStr();
