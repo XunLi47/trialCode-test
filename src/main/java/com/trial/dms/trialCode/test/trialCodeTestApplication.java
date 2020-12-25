@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan("com.trial.dms")
+//@ComponentScan("com.trial.dms")
 @SpringBootApplication
 public class trialCodeTestApplication
 {
